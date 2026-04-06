@@ -13,7 +13,7 @@ const highlights = [
   { icon: <WorkIcon />, label: 'Current Role', value: 'Senior Associate Consultant, Infosys' },
   { icon: <LocationOnIcon />, label: 'Location', value: 'Indore, Madhya Pradesh, India' },
   { icon: <SchoolIcon />, label: 'Education', value: 'B.E. Information Technology, RGPV' },
-  { icon: <RocketLaunchIcon />, label: 'Open To', value: 'Full-time roles · UK opportunities' },
+  { icon: <RocketLaunchIcon />, label: 'Open To', value: 'Full-time roles · Frontedn Heavy' },
 ];
 
 export default function AboutSection() {
@@ -47,7 +47,7 @@ export default function AboutSection() {
               sx={{ color: 'text.secondary', fontSize: { xs: '1rem', md: '1.05rem' }, lineHeight: 1.9 }}
             >
               I thrive at the intersection of <Box component="span" sx={{ color: 'primary.main', fontWeight: 600 }}>scalable architecture</Box> and
-              {' '}<Box component="span" sx={{ color: 'primary.main', fontWeight: 600 }}>great user experience</Box> — translating complex financial and enterprise workflows into clean, performant interfaces. Actively exploring open source contributions and UK job opportunities.
+              {' '}<Box component="span" sx={{ color: 'primary.main', fontWeight: 600 }}>great user experience</Box> — translating complex financial and enterprise workflows into clean, performant interfaces. Actively exploring open source contributions .
             </Typography>
           </motion.div>
         </Grid>
